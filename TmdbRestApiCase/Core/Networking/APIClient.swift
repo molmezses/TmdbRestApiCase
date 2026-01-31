@@ -23,7 +23,7 @@ final class APIClient{
             throw NetworkError.invalidUrl
         }
         
-        components.queryItems = endpoint.queryItem
+        components.queryItems = endpoint.queryItems
         
         guard let url = components.url else {
             throw NetworkError.invalidUrl

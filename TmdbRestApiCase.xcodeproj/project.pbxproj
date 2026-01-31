@@ -10,9 +10,22 @@
 		8EAD081E2F2DFB9600FEBD1E /* TmdbRestApiCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TmdbRestApiCase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8E6B30DE2F2E93BA00C440A5 /* Exceptions for "TmdbRestApiCase" folder in "TmdbRestApiCase" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 8EAD081D2F2DFB9600FEBD1E /* TmdbRestApiCase */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		8EAD08202F2DFB9600FEBD1E /* TmdbRestApiCase */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8E6B30DE2F2E93BA00C440A5 /* Exceptions for "TmdbRestApiCase" folder in "TmdbRestApiCase" target */,
+			);
 			path = TmdbRestApiCase;
 			sourceTree = "<group>";
 		};
@@ -256,6 +269,7 @@
 				DEVELOPMENT_TEAM = MT88NC37A3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TmdbRestApiCase/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -288,6 +302,7 @@
 				DEVELOPMENT_TEAM = MT88NC37A3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TmdbRestApiCase/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
