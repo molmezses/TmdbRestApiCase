@@ -7,29 +7,25 @@
 
 import Foundation
 
-protocol MovieServiceProtocol{
+import Foundation
+
+protocol MovieServiceProtocol {
     func fetchPopularMovies(page: Int) async throws -> MovieResponse
 }
 
-
 final class MovieService: MovieServiceProtocol {
-    
+
     private let apiClient: APIClient
-    
-    init(apiClient: APIClient) {
+
+    init(apiClient: APIClient = .shared) {
         self.apiClient = apiClient
     }
-    
+
     func fetchPopularMovies(page: Int) async throws -> MovieResponse {
         try await apiClient.request(
             endpoint: MovieEndpoint.popular(page: page),
-            //responseType -> DecodableType ister MovieRespınse -< Decodable
             responseType: MovieResponse.self
         )
-        
     }
-    
-    
-    
 }
 
